@@ -1,8 +1,25 @@
-<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" standalone="yes"?>
+<!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>IPA Сейф</title>
+        <item>
+            <title>0.3.1</title>
+            <pubDate>Tue, 20 Oct 2026 15:03:14 +0300</pubDate>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>0.3.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# IPA Сейф 0.3.1
+
+- Улучшена совместимость сборки со Swift 6.1.
+- Проверка, загрузка и установка обновлений через интернет доступны в меню IPA Сейфа и боковой панели.
+
+Приложение проверяет подписи каталога и пакета перед установкой обновления.
+]]></description>
+            <enclosure url="https://github.com/semen9559-debug/ipasafe-updates/releases/download/v0.3.1-7/IPASafe-0.3.1-7.zip" length="92570427" type="application/octet-stream" sparkle:edSignature="HQOS5X2ELIM3kcsH1jflpOpf/sVJ386J2IwWjNr8XT15yN63Bj8oww+Yw345LWOr/RVSqzAiw+c8Zr/aUlZPAw=="/>
+        </item>
         <item>
             <title>0.3.0</title>
             <pubDate>Tue, 20 Oct 2026 00:38:42 +0300</pubDate>
@@ -18,10 +35,11 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 
 Библиотека IPA и локальная сессия Apple Account сохраняются отдельно от приложения.
 ]]></description>
-            <enclosure url="https://github.com/semen9559-debug/ipasafe-updates/releases/download/v0.3.0-6/IPASafe-0.3.0-6.zip" length="92570672" type="application/octet-stream" sparkle:edSignature="3v7wDG92QaNpYRzFAOvy5v4PPyYi6bXdZZeBqew+8AHJUv8TgGWojCrlcf+Ga1soEHMU3kqhkbHf8wGREUrsAw=="></enclosure>
+            <enclosure url="https://github.com/semen9559-debug/ipasafe-updates/releases/download/v0.3.0-6/IPASafe-0.3.0-6.zip" length="92570672" type="application/octet-stream" sparkle:edSignature="3v7wDG92QaNpYRzFAOvy5v4PPyYi6bXdZZeBqew+8AHJUv8TgGWojCrlcf+Ga1soEHMU3kqhkbHf8wGREUrsAw=="/>
         </item>
     </channel>
-</rss><!-- sparkle-signatures:
-edSignature: xqn19+0jgxjsOAiXVlmeHYZC9/6M5cRdhkaVvuujVs2lpbez2POuehfWSuu8Sv4XjAYv7xtuFCC8hBJlG/WsDA==
-length: 1725
+</rss>
+<!-- sparkle-signatures:
+edSignature: 9ZUeaXCd0xls62XgVVb/W0oaj/WT1YKggIFkXeHtdOTJfPF6fO9jzXTTlfGIzcL9Bu2VxlxbZyK08t4CZSCFDg==
+length: 2838
 -->
