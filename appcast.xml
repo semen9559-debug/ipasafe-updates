@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>IPA Сейф</title>
+        <item>
+            <title>0.3.0</title>
+            <pubDate>Tue, 20 Oct 2026 00:38:42 +0300</pubDate>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# IPA Сейф 0.3.0
+
+- Проверка обновлений из меню IPA Сейфа и боковой панели.
+- Загрузка и установка новой версии с перезапуском приложения.
+- Проверка криптографической подписи пакета и каталога обновлений.
+- Поддержка Mac с Intel и Apple Silicon, начиная с macOS 14.
+
+Библиотека IPA и локальная сессия Apple Account сохраняются отдельно от приложения.
+]]></description>
+            <enclosure url="https://github.com/semen9559-debug/ipasafe-updates/releases/download/v0.3.0-6/IPASafe-0.3.0-6.zip" length="92570672" type="application/octet-stream" sparkle:edSignature="3v7wDG92QaNpYRzFAOvy5v4PPyYi6bXdZZeBqew+8AHJUv8TgGWojCrlcf+Ga1soEHMU3kqhkbHf8wGREUrsAw=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: xqn19+0jgxjsOAiXVlmeHYZC9/6M5cRdhkaVvuujVs2lpbez2POuehfWSuu8Sv4XjAYv7xtuFCC8hBJlG/WsDA==
+length: 1725
+-->
