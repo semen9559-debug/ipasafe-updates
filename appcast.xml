@@ -6,6 +6,26 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>IPA Сейф</title>
         <item>
+            <title>0.3.2</title>
+            <pubDate>Tue, 27 Oct 2026 23:41:52 +0300</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>0.3.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Поиск приложений во всех разделах
+
+- Мгновенный поиск по названию и Bundle ID в библиотеке, списке App Store и на iPhone.
+- В библиотеке можно искать также по имени файла, в App Store и на iPhone — по App Store ID.
+- Кнопка очистки, сброс запроса клавишей Escape и число найденных приложений.
+- Отдельный запрос для каждого раздела сохраняется при переключении вкладок.
+- Если совпадений нет, появляется подсказка вместо сообщения о пустой библиотеке.
+
+В «Моих покупках» поиск работает по загруженной странице. Для поиска в других покупках переключи страницу; введённый фильтр сохранится.
+
+Если после установки обновления окно продолжает показывать старую версию, закрой и снова открой «IPA Сейф».
+]]></description>
+            <enclosure url="https://github.com/semen9559-debug/ipasafe-updates/releases/download/v0.3.2-8/IPASafe-0.3.2-8.zip" length="92592290" type="application/octet-stream" sparkle:edSignature="8pisGTI/x2D7Fts15mPIVr5BJo9T70GQ7oAQ5SH0tUM0lF/lZtdKP6mMFkufEg9H/lh9meGhlNWyXLdgFejIBg=="/>
+        </item>
+        <item>
             <title>0.3.1</title>
             <pubDate>Tue, 20 Oct 2026 15:03:14 +0300</pubDate>
             <sparkle:version>7</sparkle:version>
@@ -40,6 +60,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 9ZUeaXCd0xls62XgVVb/W0oaj/WT1YKggIFkXeHtdOTJfPF6fO9jzXTTlfGIzcL9Bu2VxlxbZyK08t4CZSCFDg==
-length: 2838
+edSignature: OCqmdBI9gTwsqT39FCNhkJ2mqYbE/a+JixNYho7Vr2A1SnTDODaSqmMTkph73hI0qdor3+Z7xSMFenFXaUYGDg==
+length: 4751
 -->
