@@ -6,6 +6,27 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>IPA Сейф</title>
         <item>
+            <title>0.4.0</title>
+            <pubDate>Thu, 29 Oct 2026 01:30:03 +0300</pubDate>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# IPA Сейф 0.4.0
+
+- Вход в IPA Сейф по одноразовому коду из @ipasafe_bot. Один аккаунт — два Mac.
+- Одно бесплатное скачивание IPA. Этот файл можно устанавливать и экспортировать на своих подключённых Mac.
+- Для остальных IPA — разовый доступ на 30 дней или подписка с автопродлением через Telegram Stars.
+- Управление устройствами, подпиской и обращениями поддержки в боте.
+- Проверка доступа перед скачиванием, установкой и экспортом. Apple Account и IPA остаются на Mac.
+- Восстановление сохранения подготовленного IPA после потери связи или перезапуска.
+
+Apple Account подключается отдельно, как раньше. Доступность конкретного IPA и возможность установки определяет Apple.
+
+Если после обновления окно показывает старую версию, закрой и снова открой приложение.
+]]></description>
+            <enclosure url="https://github.com/semen9559-debug/ipasafe-updates/releases/download/v0.4.0-9/IPASafe-0.4.0-9.zip" length="92887171" type="application/octet-stream" sparkle:edSignature="SUecX5/j4t3/aJusn2oF9M629fBjXLOw4i3+DrJbH4yeHP3rtLg/G8e8bFwPkLOtl9gpJAG/D/JBmpxO2bQoAQ=="/>
+        </item>
+        <item>
             <title>0.3.2</title>
             <pubDate>Tue, 27 Oct 2026 23:41:52 +0300</pubDate>
             <sparkle:version>8</sparkle:version>
@@ -40,26 +61,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 ]]></description>
             <enclosure url="https://github.com/semen9559-debug/ipasafe-updates/releases/download/v0.3.1-7/IPASafe-0.3.1-7.zip" length="92570427" type="application/octet-stream" sparkle:edSignature="HQOS5X2ELIM3kcsH1jflpOpf/sVJ386J2IwWjNr8XT15yN63Bj8oww+Yw345LWOr/RVSqzAiw+c8Zr/aUlZPAw=="/>
         </item>
-        <item>
-            <title>0.3.0</title>
-            <pubDate>Tue, 20 Oct 2026 00:38:42 +0300</pubDate>
-            <sparkle:version>6</sparkle:version>
-            <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# IPA Сейф 0.3.0
-
-- Проверка обновлений из меню IPA Сейфа и боковой панели.
-- Загрузка и установка новой версии с перезапуском приложения.
-- Проверка криптографической подписи пакета и каталога обновлений.
-- Поддержка Mac с Intel и Apple Silicon, начиная с macOS 14.
-
-Библиотека IPA и локальная сессия Apple Account сохраняются отдельно от приложения.
-]]></description>
-            <enclosure url="https://github.com/semen9559-debug/ipasafe-updates/releases/download/v0.3.0-6/IPASafe-0.3.0-6.zip" length="92570672" type="application/octet-stream" sparkle:edSignature="3v7wDG92QaNpYRzFAOvy5v4PPyYi6bXdZZeBqew+8AHJUv8TgGWojCrlcf+Ga1soEHMU3kqhkbHf8wGREUrsAw=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: OCqmdBI9gTwsqT39FCNhkJ2mqYbE/a+JixNYho7Vr2A1SnTDODaSqmMTkph73hI0qdor3+Z7xSMFenFXaUYGDg==
-length: 4751
+edSignature: zdjbuC1meyvpAdMgkAF3dx1eAdGlomUdJN7wOOXmNkqDnZbwvgpkLP1qeY2RpoLKCaYy14PzWeE6MaUpxGsfCw==
+length: 5473
 -->
