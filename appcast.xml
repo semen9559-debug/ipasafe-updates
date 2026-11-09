@@ -6,6 +6,22 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>IPA Сейф</title>
         <item>
+            <title>0.4.2</title>
+            <pubDate>Mon, 09 Nov 2026 17:43:53 +0300</pubDate>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>0.4.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# IPA Сейф 0.4.2
+
+- Исправлен вход в Apple Account: обновлён движок и добавлено актуальное подтверждение устройства Apple.
+- Ускорена первая подготовка компонентов авторизации; ранее проверенные файлы используются из кэша.
+- Вход и выход остаются внутри приложения. Пароль Apple не сохраняется, сессия хранится в Связке ключей Mac.
+
+Требуется macOS 14 или новее. Поддерживаются Intel и Apple Silicon.
+]]></description>
+            <enclosure url="https://github.com/semen9559-debug/ipasafe-updates/releases/download/v0.4.2-11/IPASafe-0.4.2-11.zip" length="112860849" type="application/octet-stream" sparkle:edSignature="joL7zX/is+R8lkloCmz1JF0AISN9b+l6MFzw9zcN6ZV/Nl43W76w82NOxsXtQHlDvZwuXuo4dsSVxW2v23yiAw=="/>
+        </item>
+        <item>
             <title>0.4.1</title>
             <pubDate>Mon, 09 Nov 2026 17:04:19 +0300</pubDate>
             <sparkle:version>10</sparkle:version>
@@ -43,29 +59,9 @@ Apple Account подключается отдельно, как раньше. Д
 ]]></description>
             <enclosure url="https://github.com/semen9559-debug/ipasafe-updates/releases/download/v0.4.0-9/IPASafe-0.4.0-9.zip" length="92887171" type="application/octet-stream" sparkle:edSignature="SUecX5/j4t3/aJusn2oF9M629fBjXLOw4i3+DrJbH4yeHP3rtLg/G8e8bFwPkLOtl9gpJAG/D/JBmpxO2bQoAQ=="/>
         </item>
-        <item>
-            <title>0.3.2</title>
-            <pubDate>Tue, 27 Oct 2026 23:41:52 +0300</pubDate>
-            <sparkle:version>8</sparkle:version>
-            <sparkle:shortVersionString>0.3.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Поиск приложений во всех разделах
-
-- Мгновенный поиск по названию и Bundle ID в библиотеке, списке App Store и на iPhone.
-- В библиотеке можно искать также по имени файла, в App Store и на iPhone — по App Store ID.
-- Кнопка очистки, сброс запроса клавишей Escape и число найденных приложений.
-- Отдельный запрос для каждого раздела сохраняется при переключении вкладок.
-- Если совпадений нет, появляется подсказка вместо сообщения о пустой библиотеке.
-
-В «Моих покупках» поиск работает по загруженной странице. Для поиска в других покупках переключи страницу; введённый фильтр сохранится.
-
-Если после установки обновления окно продолжает показывать старую версию, закрой и снова открой «IPA Сейф».
-]]></description>
-            <enclosure url="https://github.com/semen9559-debug/ipasafe-updates/releases/download/v0.3.2-8/IPASafe-0.3.2-8.zip" length="92592290" type="application/octet-stream" sparkle:edSignature="8pisGTI/x2D7Fts15mPIVr5BJo9T70GQ7oAQ5SH0tUM0lF/lZtdKP6mMFkufEg9H/lh9meGhlNWyXLdgFejIBg=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: wGh6i6O9j6Ft2FGcgKGrRXScJsoGHy/furZdDqWLnLVhQM3NEpnDzEe7i0UR2RFFnJjYHuKSYW1eQ/Y9U5BHAw==
-length: 5753
+edSignature: BLRAAT7Zml3Fuli8vaI4lKb4whWn9jBpyRJ2yVrvfoGf1L8g5GpojQpicIEDlpBfgmMpXxHQ5jVLCINKCAZoDg==
+length: 5214
 -->
