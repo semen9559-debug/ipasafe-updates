@@ -6,6 +6,24 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>IPA Сейф</title>
         <item>
+            <title>0.4.4</title>
+            <pubDate>Fri, 20 Nov 2026 22:28:00 +0300</pubDate>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>0.4.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# IPA Сейф 0.4.4
+
+- Во вкладке iPhone теперь отображаются сгруженные приложения — те, что имеют облачко на телефоне.
+- Пометка «Сгружено» помогает отличить их от установленных.
+- Сгруженные приложения можно сохранять по одному и выбирать для массовой загрузки. Сохранившиеся App Store ID и ID версии используются автоматически.
+
+IPA скачивается с серверов Apple. Для удалённых из App Store приложений доступность файла и нужной версии не гарантируется.
+
+macOS 14+, Intel и Apple Silicon.
+]]></description>
+            <enclosure url="https://github.com/semen9559-debug/ipasafe-updates/releases/download/v0.4.4-13/IPASafe-0.4.4-13.zip" length="112884745" type="application/octet-stream" sparkle:edSignature="fHLohFm79YD55EHma8C7ioh/Gclu4H1RdPyyclM/QFMIuEM18wqTVcIT+DNvdcitIzfQyb9/sRU7RTtVPterCg=="/>
+        </item>
+        <item>
             <title>0.4.3</title>
             <pubDate>Fri, 20 Nov 2026 20:42:33 +0300</pubDate>
             <sparkle:version>12</sparkle:version>
@@ -38,26 +56,9 @@ macOS 14+, Intel и Apple Silicon.
 ]]></description>
             <enclosure url="https://github.com/semen9559-debug/ipasafe-updates/releases/download/v0.4.2-11/IPASafe-0.4.2-11.zip" length="112860849" type="application/octet-stream" sparkle:edSignature="joL7zX/is+R8lkloCmz1JF0AISN9b+l6MFzw9zcN6ZV/Nl43W76w82NOxsXtQHlDvZwuXuo4dsSVxW2v23yiAw=="/>
         </item>
-        <item>
-            <title>0.4.1</title>
-            <pubDate>Mon, 09 Nov 2026 17:04:19 +0300</pubDate>
-            <sparkle:version>10</sparkle:version>
-            <sparkle:shortVersionString>0.4.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# IPA Сейф 0.4.1
-
-- В карточке Apple Account добавлена кнопка «Выйти из аккаунта» с подтверждением.
-- Выход очищает сохранённую сессию Apple, cookies входа и кеш авторизации, чтобы можно было войти заново.
-- Библиотека IPA и вход через Telegram сохраняются.
-- Повторный выход при уже удалённой сессии завершается без ошибки.
-
-Если после обновления отображается старая версия, закрой и снова открой приложение.
-]]></description>
-            <enclosure url="https://github.com/semen9559-debug/ipasafe-updates/releases/download/v0.4.1-10/IPASafe-0.4.1-10.zip" length="92916452" type="application/octet-stream" sparkle:edSignature="rO59P/xYUhsvMoAI01vhhAxLFwc8CjO4wKF2XjucFRbZqYEplHxGQGy1lm690swXe/K9Hz2iDZnvzEeAfBnmDg=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: qdIHvPy1bWcbh+WgPKKN5FZv/0ToOUNuOjYbBOSrtZ1MidiJejeG7vqrEQkqE77oSDM7812HydohyueoRNxvCA==
-length: 4921
+edSignature: IGRgXGsPFw+HS+dIyEOC/lC48vBauEGkcnqlIrMNTjai7cFdu3TJ+Wlfmx63GWr33Ui1iI8oU4YDub0GPW0NBQ==
+length: 5043
 -->
