@@ -6,6 +6,23 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>IPA Сейф</title>
         <item>
+            <title>0.4.3</title>
+            <pubDate>Fri, 20 Nov 2026 20:42:33 +0300</pubDate>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>0.4.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# IPA Сейф 0.4.3
+
+- Повторный запрос кода Apple Account прямо в окне входа; между запросами — пауза в минуту.
+- Подсказка «Код не приходит?» с доступными способами получения кода через Apple. Прямой запрос SMS в этом способе входа не поддерживается.
+- Массовый выбор приложений во вкладке iPhone: отметки, выбор показанных результатов и загрузка выбранных IPA одной кнопкой.
+- Последовательная очередь с общим прогрессом, отменой и итоговым отчётом. Ошибка отдельного приложения не мешает сохранить остальные; ограничения доступа останавливают очередь.
+
+macOS 14+, Intel и Apple Silicon.
+]]></description>
+            <enclosure url="https://github.com/semen9559-debug/ipasafe-updates/releases/download/v0.4.3-12/IPASafe-0.4.3-12.zip" length="112874644" type="application/octet-stream" sparkle:edSignature="ItRbRdaMhQy3PFHQqnHjOLAnENRoH4F+tvxsZPo7x2EJoarqwbcYyraChMiWYuzuKDuPQPC2vL7j9cf08g8+CA=="/>
+        </item>
+        <item>
             <title>0.4.2</title>
             <pubDate>Mon, 09 Nov 2026 17:43:53 +0300</pubDate>
             <sparkle:version>11</sparkle:version>
@@ -38,30 +55,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 ]]></description>
             <enclosure url="https://github.com/semen9559-debug/ipasafe-updates/releases/download/v0.4.1-10/IPASafe-0.4.1-10.zip" length="92916452" type="application/octet-stream" sparkle:edSignature="rO59P/xYUhsvMoAI01vhhAxLFwc8CjO4wKF2XjucFRbZqYEplHxGQGy1lm690swXe/K9Hz2iDZnvzEeAfBnmDg=="/>
         </item>
-        <item>
-            <title>0.4.0</title>
-            <pubDate>Thu, 29 Oct 2026 01:30:03 +0300</pubDate>
-            <sparkle:version>9</sparkle:version>
-            <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# IPA Сейф 0.4.0
-
-- Вход в IPA Сейф по одноразовому коду из @ipasafe_bot. Один аккаунт — два Mac.
-- Одно бесплатное скачивание IPA. Этот файл можно устанавливать и экспортировать на своих подключённых Mac.
-- Для остальных IPA — разовый доступ на 30 дней или подписка с автопродлением через Telegram Stars.
-- Управление устройствами, подпиской и обращениями поддержки в боте.
-- Проверка доступа перед скачиванием, установкой и экспортом. Apple Account и IPA остаются на Mac.
-- Восстановление сохранения подготовленного IPA после потери связи или перезапуска.
-
-Apple Account подключается отдельно, как раньше. Доступность конкретного IPA и возможность установки определяет Apple.
-
-Если после обновления окно показывает старую версию, закрой и снова открой приложение.
-]]></description>
-            <enclosure url="https://github.com/semen9559-debug/ipasafe-updates/releases/download/v0.4.0-9/IPASafe-0.4.0-9.zip" length="92887171" type="application/octet-stream" sparkle:edSignature="SUecX5/j4t3/aJusn2oF9M629fBjXLOw4i3+DrJbH4yeHP3rtLg/G8e8bFwPkLOtl9gpJAG/D/JBmpxO2bQoAQ=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: BLRAAT7Zml3Fuli8vaI4lKb4whWn9jBpyRJ2yVrvfoGf1L8g5GpojQpicIEDlpBfgmMpXxHQ5jVLCINKCAZoDg==
-length: 5214
+edSignature: qdIHvPy1bWcbh+WgPKKN5FZv/0ToOUNuOjYbBOSrtZ1MidiJejeG7vqrEQkqE77oSDM7812HydohyueoRNxvCA==
+length: 4921
 -->
